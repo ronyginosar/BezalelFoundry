@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <title> Bezalel Foundry </title>
+    <meta charset="UTF-8" dir="rtl">
+    <meta name="description" content="A new platform for open-source fonts in a noise-free environment, to highlight their beauty, extend functionality and encourage further exploration.">
+    <link rel="stylesheet" media="all" href="styles.css"/>
+    <link rel="stylesheet" href="css/fontsInUse.css">
+    <script src="js/iro.min.js"></script>
+    <script src="js/controlerFunctions.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <section class = "top">
+      <header>
+        <ul id="info"></ul>
+        <ul id="title">ברוכים הבאים לפונטיית בצלאל - הקלידו להנאתכם</ul>
+      </header>
+    </section>
+    <section class="main">
+        <div class="colorControlers">
+          <!-- NOTE: dont put anything after "onclick" -->
+          <input type="image" src="data/color.png" class="icon" onclick="bgColorSelector()">
+            <div id="color-bg-container"></div>
+          </input>
+          <input type="image" src="data/bwicon.png" class="icon" onclick="colorinvert()"></input>
+          <input type="image" src="data/rgb.png" class="icon" onclick="textColorSelector()">
+            <div id="color-text-container"></div>
+          </input>
+          <input type="image" src="data/replay.png" class="icon" onclick="randomColors()"></input>
+        </div>
+        <!-- TEXT FONTS -->
+        <div class="fontRow AharoniALaElla" contenteditable="true">אהרוני א לה אלה </div>
+        <div class="fontRow Negev" contenteditable="true">נגב </div>
+        <div class="fontRow SheriffSansSerif" contenteditable="true">שריף סריף</div>
+        <div class="fontRow Uda" contenteditable="true">עודה </div>
+        <div class="fontRow Shechter" contenteditable="true">שכטר </div>
+        <div class="fontRow Agada" contenteditable="true">אגדה  </div>
+    </section>
+    <footer>
+      <!-- TODO credits -->
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'NarkisBlock';
+    src: url('../data/VC_NarkisBlock-Regular.otf');
+}
+
+@font-face {
+    font-family: 'AharoniALaElla';
+    src: url('../fonts/AharoniALaElla.otf');
+}
+
+.AharoniALaElla{
+  font-family: 'AharoniALaElla';
+  /* font-size: 15vw; */
+}
+
+@font-face {
+    font-family: 'Negev';
+    src: url('../fonts/Negev.otf');
+}
+
+.Negev {
+  font-family: 'Negev';
+  /* top: 20vh; */
+}
+
+@font-face {
+    font-family: 'SheriffSansSerif';
+    src: url('../fonts/SheriffSansSerif-Regular.otf');
+}
+
+.SheriffSansSerif{
+  font-family: 'SheriffSansSerif';
+}
+
+@font-face {
+    font-family: 'Uda';
+    src: url('../fonts/Uda-Bold.otf');
+}
+
+.Uda{
+  font-family: 'Uda';
+}
+
+@font-face {
+    font-family: 'Shechter';
+    src: url('../fonts/Shechter-Regular.otf');
+}
+
+.Shechter{
+  font-family: 'Shechter';
+}
+
+@font-face {
+    font-family: 'Agada';
+    src: url('../fonts/Agada.otf');
+}
+
+.Agada{
+  font-family: 'Agada';
+}

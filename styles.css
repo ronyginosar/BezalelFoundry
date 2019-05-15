@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+  --element-color: #000000;
+  --bg-color: rgb(255, 64, 100);
+  --hover-color: #ffffff ;
+  --page-margins: 1%;
+}
+
+body{
+  font-family: 'NarkisBlock';
+  margin: 0;
+  /* overflow: hidden; */
+  direction: rtl;
+  background-color: var(--bg-color);
+  cursor:url(data/arrow128.png), auto;
+}
+
+/* HEADER */
+
+header{
+  margin-right: var(--page-margins);
+  width: 100%;
+  font-size: 20px;
+  position: fixed;
+  background-color: var(--bg-color);
+  height: 50px;
+  top: 0 ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+header > ul{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin: 5;
+  position: relative;
+}
+
+#title {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  flex-grow: 8;
+  padding: 0 0 0 0px;
+  color: var(--element-color);
+}
+
+#info {
+  position: relative;
+  top: 10;
+  left: 0;
+  height: 100%;
+  display: flex;
+  white-space: nowrap;
+  background-image: url('data/infologowhite.png');
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+}
+
+/* MAIN */
+
+.main{
+  margin-right: var(--page-margins);
+  margin-left: var(--page-margins);
+  justify-content:space-space-around;
+
+}
+
+.fontRow{
+  display: inline;
+  position: relative;
+  font-size: 15vw;
+  line-height: 12vw;
+  color: var(--element-color);
+  /* -webkit-text-fill-color:  var(--bg-color);;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--element-color); */
+}
+
+div.fontRow:hover{
+  color: var(--hover-color);
+  /* -webkit-text-fill-color: var(--hover-color); */
+}
+
+.fontRow:focus {
+    outline: 0px solid transparent;
+}
+
+/* COLORS */
+
+.colorControlers{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  bottom: var(--page-margins) ;
+  left: var(--page-margins) ;
+}
+
+.icon{
+  object-fit: contain;
+  height: 30px;
+  margin-bottom: 10px;
+  /* cursor: cell; */
+  cursor:url(data/arrow128.png), auto;
+}
+
+.icon:focus {
+    outline: 0px solid transparent;
+}
+
+#color-bg-container{
+  position: absolute;
+  left: 100px;
+  display:none;
+}
+#color-text-container{
+  position: absolute;
+  left: 100px;
+  display:none;
+}
