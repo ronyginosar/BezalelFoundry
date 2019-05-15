@@ -37,7 +37,7 @@ header > ul{
   display: inline-block;
   align-items: center;
   justify-content: center;
-  margin: 5;
+  /* margin: 5px; */
   position: relative;
 }
 
@@ -46,13 +46,15 @@ header > ul{
   display: flex;
   justify-content: right;
   flex-grow: 8;
-  padding: 0 5 0 0px;
+  top: 10px;
+  right: 12px;
+  padding: 0 0 0 0px;
   color: var(--element-color);
 }
 
 #info {
   position: relative;
-  top: 10;
+  top: 7px;
   left: 0;
   height: 100%;
   display: flex;
