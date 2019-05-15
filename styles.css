@@ -46,7 +46,7 @@ header > ul{
   display: flex;
   justify-content: right;
   flex-grow: 8;
-  padding: 0 0 0 0px;
+  padding: 0 5 0 0px;
   color: var(--element-color);
 }
 
