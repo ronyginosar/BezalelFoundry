@@ -22,6 +22,7 @@ body{
 
 header{
   margin-right: var(--page-margins);
+  padding-bottom: var(--page-margins);
   width: 100%;
   font-size: 20px;
   position: fixed;
@@ -37,7 +38,6 @@ header > ul{
   display: inline-block;
   align-items: center;
   justify-content: center;
-  /* margin: 5px; */
   position: relative;
 }
 
@@ -54,7 +54,7 @@ header > ul{
 
 #info {
   position: relative;
-  top: 7px;
+  padding-bottom: var(--page-margins);
   left: 0;
   height: 100%;
   display: flex;
@@ -69,8 +69,6 @@ header > ul{
 .main{
   margin-right: var(--page-margins);
   margin-left: var(--page-margins);
-  justify-content:space-space-around;
-
 }
 
 .fontRow{
@@ -100,7 +98,7 @@ div.fontRow:hover{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  bottom: var(--page-margins) ;
+  bottom: 10px ;
   left: var(--page-margins) ;
 }
 
